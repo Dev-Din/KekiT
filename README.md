@@ -1,2 +1,1 @@
-# PROJECT KeKiT
-
+# Project KeKiT

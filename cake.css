@@ -113,7 +113,7 @@ input[type="search"] {
 }
 
 input[type="search"]::placeholder {
-  background-image: url(/Icons/Search.png);
+  background-image: url(/KekiT/Search.png);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 18px;
@@ -201,7 +201,6 @@ input[type="search"]::placeholder {
 .delivery {
   margin: 0 8px;
   padding: 5px 0;
-
   display: flex;
   justify-content: space-between;
 }
@@ -217,7 +216,7 @@ hr {
   width: auto;
   height: 565px;
   margin: 0 5px;
-  background: url(/bgImages/bday.png) no-repeat;
+  background: url(/KekiT/bday.png) no-repeat;
   border-radius: 5px;
   background-size: 100%, 0;
   display: flex;
@@ -321,16 +320,16 @@ hr {
   flex: 50%;
 }
 .pic-1 {
-  background: url(/bgImages/Branded\ sky.jpg) no-repeat;
+  background: url(/KekiT/Sky.png) no-repeat;
 }
 .pic-2 {
-  background: url(/bgImages/Fill-You-Own-Personalised-Cupcakes.jpg) no-repeat;
+  background: url(/KekiT/Fill-You-Own-Personalised-Cupcakes.jpg) no-repeat;
 }
 .pic-3 {
-  background: url(/bgImages/Personalised-Cupcakes.jpg) no-repeat;
+  background: url(/KekiT/Personalised-Cupcakes.jpg) no-repeat;
 }
 .pic-4 {
-  background: url(/bgImages/google.jpg) no-repeat;
+  background: url(/KekiT/google.jpg) no-repeat;
 }
 .pic-1 h3,
 .pic-2 h3,
@@ -403,7 +402,7 @@ hr {
   transform: scale(1.1);
 }
 .block-1 {
-  background: url(/bgImages/Logo-Cupcakes.jpg) no-repeat;
+  background: url(/KekiT/Logo-Cupcakes.jpg) no-repeat;
   background-size: cover;
   height: 450px;
   width: 380px;
@@ -412,7 +411,7 @@ hr {
 }
 
 .block-2 {
-  background: url(/bgImages/Message-Cupcakes.jpg) no-repeat;
+  background: url(/KekiT/Message-Cupcakes.jpg) no-repeat;
   background-size: cover;
   height: 450px;
   width: 380px;
@@ -421,7 +420,7 @@ hr {
   top: -9px;
 }
 .block-3 {
-  background: url(/bgImages/Photo-Cupcakes.jpg) no-repeat;
+  background: url(/KekiT/Photo-Cupcakes.jpg) no-repeat;
   background-size: cover;
   height: 450px;
   margin-left: 30px;
@@ -430,7 +429,7 @@ hr {
   margin-bottom: 20px;
 }
 .block-4 {
-  background: url(/bgImages/Fill-Your-Own-Cupcakes.jpg) no-repeat;
+  background: url(/KekiT/Fill-Your-Own-Cupcakes.jpg) no-repeat;
   background-size: cover;
   height: 450px;
   margin-left: 30px;

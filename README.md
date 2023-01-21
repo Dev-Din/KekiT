@@ -1,3 +1,0 @@
-# Project KeKiT
-
-Cake Website.

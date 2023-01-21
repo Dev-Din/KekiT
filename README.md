@@ -1,3 +1,3 @@
 # KekiT
-A static cake website. 
 
+A static cake website.

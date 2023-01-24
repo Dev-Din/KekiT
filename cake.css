@@ -623,3 +623,75 @@ footer .extra2 {
   color: #333;
 }
 /*----------------------Div 12--------------------------------*/
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+/*----------------------Div 1--------------------------------*/
+
+  .info {
+    width: 100%;
+    font-size: 2vw;
+  }
+/*----------------------Div 2--------------------------------*/
+
+  .logo img {
+    width: 50px;
+  }
+  .user img{
+  width: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  }
+  input[type="search"] {
+    max-width: 35vw;
+    max-height:3vw ;
+    margin-top: 15px;
+    font-size: 10px;
+    text-indent: 10px;
+  }
+input[type="search"]::placeholder {
+  font-size: 2vw;
+  background-size: 2vw;
+}
+/*----------------------Div 3--------------------------------*/
+  
+  .test {
+    display: none;
+  }
+}
+/*
+input[type="search"] {
+  position: relative;
+  text-indent: 19px;
+  width: 450px;
+  text-transform: capitalize;
+  height: 2.5pc;
+  font-weight: 500;
+  font-size: 18px;
+  outline: none;
+  margin-top: 35px;
+  padding: 0 15px;
+  border-radius: 20px;
+  border: 0;
+  background-color: var(--peach);
+}
+
+input[type="search"]::placeholder {
+  background-image: url(/KekiT/img/Search.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 18px;
+  font-weight: 500;
+  background-size: 18px;
+  padding-left: 5px;
+  color: #333;
+  background-color: var(--peach);
+}
+
+.user img {
+  margin-top: 25px;
+  width: 30px;
+  cursor: pointer;
+}

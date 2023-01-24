@@ -134,7 +134,11 @@ input[type="search"]::placeholder {
   margin: 0 10px 5px;
 }
 /*----------------------Div 3--------------------------------*/
-
+.nav {
+  position: sticky;
+  top: 2px;
+  z-index: 1;
+}
 .nav ul {
   margin: 0;
   margin-bottom: 5px;

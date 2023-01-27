@@ -708,7 +708,8 @@ footer .extra2 {
 @media only screen and (max-width: 600px) {
   body {
     width: 100%;
-    height: 300pc;
+    height: auto;
+
   }
 
   /*----------------------Div 1--------------------------------*/
@@ -793,9 +794,8 @@ footer .extra2 {
     margin: 0;
   }
   /*----------------------Div 5---------------------------------*/
-  .container {
-    
-    width: auto;
+  .container {    
+    width: 99vw;
     height: 36vw;
     margin: 0;
     background: url(/KekiT/img/bday.png) no-repeat;
@@ -848,6 +848,7 @@ footer .extra2 {
 .pics-2 {
   margin: 0;  
   display: flex;
+  width: 97.6vw;
   justify-content: space-around;
 }
 .pic-1,
@@ -951,9 +952,8 @@ display: none;
 }
 
 .section .about p {
-  margin-top: 1vw;  
+ margin: 2vw 0 0 6vw;  
   font-size: 2.5vw; 
-  margin-bottom: 5vw;
   line-height: 3.5vw;
 }
 .about button {
@@ -962,26 +962,81 @@ display: none;
   font-size: 4vw;
   justify-content: center;
 }
+/*----------------------Div 10---------------------------------*/
+.footer1{
+  margin: 3vw -3vw 2vw 1vw;
 }
-
-/*
-.about button {
-  margin-bottom: 20px;
-  margin-top: 10px;
-  left: 20%;
-  height: 50px;
-  width: 250px;
-  background-color: antiquewhite;
+.footer1 h2{
+  font-size: 3.5vw;
+  margin-bottom: 1vw;
+}
+.footer1 a {
+  font-size: 2.5vw;
+  line-height: 4.5vw;
+}
+.socials{
+  top: 0.5vw;
+}
+.socials a {
+  font-size: 2vw;
+  top: 2vw;  
+}
+.socials #logo{
+  position: relative;
+  width: 10vw;
+  right: -18vw; 
+}
+.social img:not(#logo){
+  width: 4vw;
+  top: 1vw;
+}
+.socials .social img:hover { 
+  transform: scale(1); 
+}
+/*----------------------Div 11---------------------------------*/
+footer{
+  margin: 1vw 0 2vw 0;
+}
+footer ul li{
+  line-height: 1vw;
+}
+footer ul li a {
+  font-size: 2vw;
+  margin: 1vw 0;
+  left: 0.5vw;
+ 
+}
+.extra1 .divider {
+  padding-left: 1.3vw;
+}
+footer .extra2 {
+  margin: 1vw 0 0 0;
+  right: 2vw;
+  font-size: 1.8vw;
   color: #333;
-  border: 3px solid rgb(232, 212, 186);
-  outline: 0;
-  font-size: 23px;
-  cursor: pointer;
 }
-
-.about button:hover {
-  background-color: #333;
-  color: antiquewhite;
-  border: 3px solid rgb(59, 56, 56);
 }
+@media only screen and (max-width: 445px){
+  body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .nav ul{
+    top: 2vw;
+    margin-top: -2vw;
+    margin-bottom: 2vw;
+  }
+  .nav ul li a{
+    padding: 1.8vw 1vw 1.4vw;
+  }
+  .d-block{
+    margin-bottom: -12vw;
+  }
+  .picha{
+   left: 45%;
+    top: 4vw;
+  }
+}
+/*
 

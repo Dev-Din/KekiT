@@ -120,7 +120,7 @@ input[type="search"] {
 }
 
 input[type="search"]::placeholder {
-  background-image: url(/KekiT/img/Search.png);
+  background-image: url(/img/Search.png);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 18px;
@@ -242,7 +242,7 @@ hr {
   width: auto;
   height: 565px;
   margin: 0 5px;
-  background: url(/KekiT/img/bday.png) no-repeat;
+  background: url(/img/bday.png) no-repeat;
   border-radius: 5px;
   background-size: 100%, 0;
   display: flex;
@@ -358,19 +358,19 @@ hr {
 }
 
 .pic-1 {
-  background: url(/KekiT/img/Sky\ cakes.jpg) no-repeat;
+  background: url(/img/Sky\ cakes.jpg) no-repeat;
 }
 
 .pic-2 {
-  background: url(/KekiT/img/Fill-You-Own-Personalised-Cupcakes.jpg) no-repeat;
+  background: url(/img/Fill-You-Own-Personalised-Cupcakes.jpg) no-repeat;
 }
 
 .pic-3 {
-  background: url(/KekiT/img/Personalised-Cupcakes.jpg) no-repeat;
+  background: url(/img/Personalised-Cupcakes.jpg) no-repeat;
 }
 
 .pic-4 {
-  background: url(/KekiT/img/google.jpg) no-repeat;
+  background: url(/img/google.jpg) no-repeat;
 }
 
 .pic-1 h3,
@@ -388,8 +388,8 @@ hr {
   margin-left: 20px;
   margin-top: 40px;
   bottom: 0;
-  width: 180px;
-  height: 40px;
+  width: 195px;
+  height: 50px;
   color: #333;
   padding: 8px 12px;
   font-size: 20px;
@@ -408,6 +408,7 @@ hr {
   border-radius: 5px;
   padding-right: 44px;
   padding-left: 8px;
+  padding-top: -300px;
   width: 220px;
   background-color: #333;
   color: antiquewhite;
@@ -451,7 +452,7 @@ hr {
 }
 
 .block-1 {
-  background: url(/KekiT/img/Logo-Cupcakes.jpg) no-repeat;
+  background: url(/img/Logo-Cupcakes.jpg) no-repeat;
   background-size: cover;
   height: 450px;
   width: 380px;
@@ -460,7 +461,7 @@ hr {
 }
 
 .block-2 {
-  background: url(/KekiT/img/Message-Cupcakes.jpg) no-repeat;
+  background: url(/img/Message-Cupcakes.jpg) no-repeat;
   background-size: cover;
   height: 450px;
   width: 380px;
@@ -470,7 +471,7 @@ hr {
 }
 
 .block-3 {
-  background: url(/KekiT/img/Photo-Cupcakes.jpg) no-repeat;
+  background: url(/img/Photo-Cupcakes.jpg) no-repeat;
   background-size: cover;
   height: 450px;
   margin-left: 30px;
@@ -480,7 +481,7 @@ hr {
 }
 
 .block-4 {
-  background: url(/KekiT/img/Fill-Your-Own-Cupcakes.jpg) no-repeat;
+  background: url(/img/Fill-Your-Own-Cupcakes.jpg) no-repeat;
   background-size: cover;
   height: 450px;
   margin-left: 30px;
@@ -798,7 +799,7 @@ footer .extra2 {
     width: 99vw;
     height: 36vw;
     margin: 0;
-    background: url(/KekiT/img/bday.png) no-repeat;
+    background: url(/img/bday.png) no-repeat;
     border-radius: 5px;
     background-size: 100%, 0;
     display: flex;
